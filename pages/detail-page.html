@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Een dronken vioolspeler</title>
+</head>
+<body>
+  <main>
+    <section id='content'></section>
+
+    <section id='comments'>
+      <h2>Comments</h2>
+      
+      <section class='comment'>
+        <h3>Rogier said:</h3>
+        <p>"This is guys is having a great time"</p>
+      </section>
+    </section>
+
+    <form onsubmit="submitComment(); return false">
+      <div class="formSection">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+      </div>
+      <div class="formSection">
+        <label for="msg">Message:</label>
+        <textarea id="msg"></textarea>
+      </div>
+      <div class="button">
+        <button type="default">Post your comment</button>
+      </div>
+    </form>
+  </main> 
+
+  <footer>
+    <p>Made with &#x2764; at Codaisseur</p>
+  </footer>
+</body>
+</html>
