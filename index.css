@@ -1,3 +1,21 @@
 body {
-    background-color: blueviolet;
-}
+    background: #FFBA00;
+    font-family: 'Big Shoulders Text', cursive;
+    text-align: center;
+  }
+
+  img{
+      width: 43%;
+  }
+ 
+  main {
+    background: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+  }
+ 
+  h1 {
+    margin: 3rem 1rem 6rem 1rem;
+  }
